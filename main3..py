@@ -38,19 +38,8 @@
 #         res = i
 
 # print(res)
-"""
-"""
-l = input()
-numbers = list(map(int, input().strip().split()))
-x = int(input().strip())
 
-res = numbers[0]
-for i in numbers:
-    if abs(i - x) < abs(res - x):
-        res = i
 
-print(res)
-"""
 
 
 # Задача 20: В настольной игре Скрабл (Scrabble) каждая буква имеет определенную ценность. В случае с английским алфавитом 
